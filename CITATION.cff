@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+type: dataset
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Qian"
+  given-names: "Tony"
+title: "MUSE PM Stellarator Design Data"
+version: 1.0
+date-released: 2023-06-01
+url: "https://github.com/tmqian/Muse-Design-Paper"
