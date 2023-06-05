@@ -14,3 +14,16 @@ FAMUS Files
 + FAMUS Driver: muse.input 
   This is the input file for famus (source and executable currently not provided)
   It reads the muse files, skips optimization, and runs a Poincare plot.
+
+
+VMEC Files
+
++ Fixed boundary input: input.muse-fixedb, (formerly known as input.zot80-fix)
+  This equilibrium is identiy to that of the FAMUS Plasma Target
+
++ MGrid B field data: mgrid.muse, (formerly known as mgrid.FAMUS_zot80-m)
+  This records 3D magnetic field data over the domain of one stellarator period.
+  It was originally computed and exported by FAMUS.
+
++ Free boundary input: input.muse-freeb
+  This file uses a truncated set of MUSE equilibria modes for initial conditions.
